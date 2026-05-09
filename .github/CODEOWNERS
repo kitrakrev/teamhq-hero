@@ -1,4 +1,28 @@
-/src/retry_wrapper.py   @kitrakrev
-/src/llm_client.py      @kitrakrev
-/tests/                 @kitrakrev
-*                       @kitrakrev
+# TeamHQ — path-based ownership
+# These map to real GitHub identities used in the demo.
+#
+# kitrakrev          = Sarah Chen     (Backend lead, ORG_OWNER, also DevOps for V1)
+# kart-001           = Iris Patel     (DS lead)
+# Ash-ketchum-pikachu = Alice Rivera (UI lead)
+
+# Backend domain (FastAPI service, retry_wrapper, llm_client)
+/src/api/                @kitrakrev
+/src/llm_client.py       @kitrakrev
+/src/retry_wrapper.py    @kitrakrev
+
+# DS domain
+/src/ml/                 @kart-001
+/ml/                     @kart-001
+
+# UI domain
+/frontend/               @Ash-ketchum-pikachu
+
+# DevOps domain (Sarah doubles up for V1)
+/src/infra/              @kitrakrev
+/.github/                @kitrakrev
+/Dockerfile              @kitrakrev
+/deploy.sh               @kitrakrev
+
+# Tests + global
+/tests/                  @kitrakrev
+*                        @kitrakrev
